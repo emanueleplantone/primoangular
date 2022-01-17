@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Componente01Component implements OnInit {
 
+  marca:string="Lamborghini"
+  modello:string="Aventador"
+
+  textColor:string="blue"
+
   constructor() { }
 
   ngOnInit(): void {
